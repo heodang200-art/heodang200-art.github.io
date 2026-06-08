@@ -5,7 +5,7 @@ import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
   return {
-	base: './', // Giúp định vị tài nguyên theo đường dẫn tương đối  
+    base: './', // Ensures relative assets loading for easy deployment on GitHub Pages
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {

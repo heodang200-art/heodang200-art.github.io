@@ -42,34 +42,34 @@ export default function App() {
 
   // Pre-configured couple bios
   const groomInfo: WeddingCoupleInfo = {
-    name: "Nguyễn Thế Anh",
-    shortName: "Thế Anh",
+    name: "Đoàn Trường Xuân",
+    shortName: "Trường Xuân",
     avatar: "https://images.unsplash.com/photo-1519741497674-611481863552?w=500&auto=format&fit=crop&q=80",
-    father: "Nguyễn Thế Hùng",
-    mother: "Phạm Thu Hà",
-    birthdate: "15/09/1997",
-    description: "Một lập trình viên yêu nghệ thuật, thích khám phá và mong muốn cùng Thảo viết nên một chương mới tràn ngập niềm vui.",
+    father: "",
+    mother: "",
+    birthdate: "1997",
+    description: "Một lập trình viên yêu nghệ thuật, thích khám phá và mong muốn cùng Cô Dâu viết nên một chương mới tràn ngập niềm vui.",
     bankName: "Ngân hàng Thương mại Cổ phần Ngoại thương Việt Nam (Vietcombank)",
     bankAccount: "1133668899",
     bankBranch: "Chi nhánh Hà Nội",
-    qrCodeUrl: "https://api.vietqr.io/image/970436-1133668899-qr_only.png?accountName=NGUYEN%2520THE%252520ANH&amount=1000000"
+    qrCodeUrl: "https://api.vietqr.io/image/970436-1133668899-qr_only.png?accountName=DOAN%2520TRUONG%252520XUAN&amount=1000000"
   };
 
   const brideInfo: WeddingCoupleInfo = {
-    name: "Lê Phương Thảo",
-    shortName: "Phương Thảo",
+    name: "Cô Dâu",
+    shortName: "Cô Dâu",
     avatar: "https://images.unsplash.com/photo-1549417229-aa67d3263c09?w=500&auto=format&fit=crop&q=80",
-    father: "Lê Minh Đức",
-    mother: "Hoàng Thị Lan",
-    birthdate: "22/11/1999",
+    father: "",
+    mother: "",
+    birthdate: "1999",
     description: "Nhà thiết kế đồ họa mộng mơ, yêu mến sự yên bình và tin rằng tình yêu đích thực luôn bắt nguốn từ những thấu hiểu giản đơn.",
     bankName: "Ngân hàng Cổ phần Quân đội (MB bank)",
     bankAccount: "9988776655",
     bankBranch: "Chi nhánh Đà Nẵng",
-    qrCodeUrl: "https://api.vietqr.io/image/970422-9988776655-qr_only.png?accountName=LE%2520PHUONG%2520THAO&amount=1000000"
+    qrCodeUrl: "https://api.vietqr.io/image/970422-9988776655-qr_only.png?accountName=CO%2520DAU&amount=1000000"
   };
 
-  const weddingDateTimestamp = new Date("2026-10-31T11:30:00").getTime();
+  const weddingDateTimestamp = new Date("2026-06-21T11:30:00").getTime();
 
   return (
     <div className="min-h-screen bg-stone-50 text-stone-800 font-sans relative selection:bg-amber-100 selection:text-rose-950">
@@ -102,10 +102,10 @@ export default function App() {
           {/* Couples names display - Playfair style custom serif */}
           <div className="space-y-2 select-none">
             <h1 className="font-serif text-4xl sm:text-5xl md:text-7xl font-bold tracking-wide text-white drop-shadow-md py-1">
-              Thế Anh <span className="text-amber-400 font-serif font-light text-3xl sm:text-4xl md:text-6xl mx-1 font-serif-italic">&</span> Phương Thảo
+              Trường Xuân <span className="text-amber-400 font-serif font-light text-3xl sm:text-4xl md:text-6xl mx-1 font-serif-italic">&</span> Cô Dâu
             </h1>
             <p className="text-xs sm:text-sm tracking-widest font-mono text-amber-300 font-medium">
-              31 THÁNG 10 NĂM 2026 // HỘI HÔN CHUNG ĐÔI
+              21 THÁNG 06 NĂM 2026 // HỘI HÔN CHUNG ĐÔI
             </p>
           </div>
 
@@ -122,7 +122,7 @@ export default function App() {
                 <Heart className="w-4 h-4 fill-rose-600 text-rose-600 animate-pulse" />
               </div>
               <p className="text-stone-500 text-xs font-light leading-relaxed mb-5">
-                Sự hiện diện kính mời của bạn là vinh hạnh lớn nhất của gia đình hai bên Nhà Trai & Nhà Gái, cùng nhau chung vui và nâng chén rượu mừng cho ngày hạnh phúc trăm năm của Thế Anh & Phương Thảo.
+                Sự hiện diện kính mời của bạn là vinh hạnh lớn nhất của gia đình hai bên Nhà Trai & Nhà Gái, cùng nhau chung vui và nâng chén rượu mừng cho ngày hạnh phúc trăm năm của Trường Xuân & Cô Dâu.
               </p>
               
               <button
@@ -193,20 +193,20 @@ export default function App() {
               {
                 date: 'Tháng 10 / 2021',
                 title: 'Lần Đầu Gặp Gỡ 👋',
-                desc: 'Chúng tôi quen nhau trong một dự án thiết kế và phát triển sáng tạo tại Hà Nội. Anh là một lập trình viên khô khan, còn Thảo là cô nhà thiết kế mộng mơ, tràn ngập năng lượng tích cực.'
+                desc: 'Chúng tôi quen nhau trong một dự án phát triển sáng tạo tại Hà Nội. Trường Xuân là một lập trình viên khô khan, còn Cô Dâu là cô nhà thiết kế mộng mơ, tràn ngập năng lượng tích cực.'
               },
               {
                 date: 'Tháng 02 / 2022',
                 title: 'Lời Tỏ Tình Ngọt Ngào ❤️',
-                desc: 'Trong cái se lạnh của mùa xuân Hà Nội, Thế Anh đã thu hết can đảm để tỏ tình với Thảo dưới tháp cổ kính. Sự thấu hiểu dần gắn kết hai trái tim thành một nhịp.'
+                desc: 'Trong cái se lạnh của mùa xuân Hà Nội, Trường Xuân đã thu hết can đảm để tỏ tình với Cô Dâu dưới tháp cổ kính. Sự thấu hiểu dần gắn kết hai trái tim thành một nhịp.'
               },
               {
                 date: 'Tháng 12 / 2025',
                 title: 'Chiếc Nhẫn Cầu Hôn Của Anh 💍',
-                desc: 'Trên bãi cát vàng Phú Quốc lãng mạn dưới hoàng hôn rực rỡ, Thế Anh quỳ gối trao chiếc nhẫn nhỏ xinh, Phương Thảo rưng rưng đồng ý cùng anh xây dựng tổ ấm vững bền.'
+                desc: 'Trên bãi cát vàng Phú Quốc lãng mạn dưới hoàng hôn rực rỡ, Trường Xuân quỳ gối trao chiếc nhẫn nhỏ xinh, Cô Dâu rưng rưng đồng ý cùng anh xây dựng tổ ấm vững bền.'
               },
               {
-                date: 'Tháng 10 / 2026',
+                date: 'Tháng 06 / 2026',
                 title: 'Ngày Trái Ngọt Trăm Năm Cưới Hỏi 🎉',
                 desc: 'Một đám cưới ấm cúng ghi nhận tình yêu ngọt ngào của chúng tôi. Kính mời toàn thể người thân và bè bạn đến chúc phúc cho hôn nhân trăm năm hòa hợp!'
               }
@@ -264,7 +264,7 @@ export default function App() {
           <div className="w-8 h-[1px] bg-stone-800 mx-auto"></div>
 
           <div className="text-[11px] font-mono uppercase tracking-widest text-amber-400 font-semibold">
-            Thế Anh & Phương Thảo
+            Trường Xuân & Cô Dâu
           </div>
 
           <p className="text-[10px] text-stone-600 font-mono pt-4 leading-none">

@@ -28,7 +28,7 @@ export interface WeddingCoupleInfo {
 export interface WeddingEventDetails {
   title: string; // Lễ Vu Quy / Lễ Thành Hôn
   side: 'bride' | 'groom';
-  time: string; // "11:30 - Chủ Nhật, 21/06/2026"
+  time: string; // "11:30 - Thứ Bảy, 31/10/2026"
   dateTimestamp: number; // For countdown
   address: string;
   venueName: string;

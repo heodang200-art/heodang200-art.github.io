@@ -15,22 +15,22 @@ const WEDDING_EVENTS: WeddingEventDetails[] = [
   {
     title: "LỄ VU QUY (Nhà Gái)",
     side: 'bride',
-    time: "09:00 - Thứ Bảy, 31/10/2026",
-    dateTimestamp: new Date("2026-10-31T09:00:00").getTime(),
-    venueName: "Tư gia Nhà Gái (White Palace)",
-    address: "194 Hoàng Văn Thụ, Phường 9, Quận Phú Nhuận, TP. Hồ Chí Minh",
-    mapEmbedUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.198300263628!2d106.67406457582697!3d10.796113889354054!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317528cb619e0db9%3A0x6bba847585bdee6!2sWhite%20Palace%20Hoang%20Van%20Thu!5e0!3m2!1svi!2s!4v1700000000000!5m2!1svi!2s",
-    mapDirectionsUrl: "https://maps.app.goo.gl/uXf3WshkAgH673L17"
+    time: "09:00 - Chủ Nhật, 21/06/2026",
+    dateTimestamp: new Date("2026-06-21T09:00:00").getTime(),
+    venueName: "FPT Software",
+    address: "FPT Software",
+    mapEmbedUrl: "https://maps.google.com/maps?q=FPT%20Software&t=&z=13&ie=UTF8&iwloc=&output=embed",
+    mapDirectionsUrl: "https://share.google/tCcNenRx7xY264oD6"
   },
   {
     title: "LỄ THÀNH HÔN (Nhà Trai)",
     side: 'groom',
-    time: "11:30 - Chủ Nhật, 01/11/2026",
-    dateTimestamp: new Date("2026-11-01T11:30:00").getTime(),
-    venueName: "Trung tâm Hội nghị Tiệc cưới Melisa Center",
-    address: "85 Thoại Ngọc Hầu, Hòa Thanh, Tân Phú, TP. Hồ Chí Minh",
-    mapEmbedUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.516104245648!2d106.6341235!3d10.7717452!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752ebeeb5ebcdb%3A0xcfab8cf3952f4477!2sMelisa%20Center!5e0!3m2!1svi!2s!4v1700000000001!5m2!1svi!2s",
-    mapDirectionsUrl: "https://maps.app.goo.gl/7g32J"
+    time: "11:30 - Chủ Nhật, 21/06/2026",
+    dateTimestamp: new Date("2026-06-21T11:30:00").getTime(),
+    venueName: "FPT Software",
+    address: "FPT Software",
+    mapEmbedUrl: "https://maps.google.com/maps?q=FPT%20Software&t=&z=13&ie=UTF8&iwloc=&output=embed",
+    mapDirectionsUrl: "https://share.google/tCcNenRx7xY264oD6"
   }
 ];
 
@@ -265,7 +265,7 @@ export default function CountdownRSVP({ weddingDateTimestamp }: CountdownRSVPPro
                       <ClipboardCheck className="w-6 h-6 text-amber-600" /> Xác Nhận Tham Dự
                     </h3>
                     <p className="text-stone-400 text-xs font-light mb-6">
-                      Để ban tổ chức chuẩn bị đón tiếp chu đáo nhất, xin vui lòng gửi xác nhận trước ngày 15/10/2026.
+                      Để ban tổ chức chuẩn bị đón tiếp chu đáo nhất, xin vui lòng gửi xác nhận trước ngày 10/06/2026.
                     </p>
 
                     <div className="space-y-4">

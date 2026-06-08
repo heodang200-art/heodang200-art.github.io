@@ -123,7 +123,7 @@ const mockReservations: RSVPSubmission[] = [
     attendance: 'yes',
     guestCount: 2,
     side: 'groom',
-    wishes: 'Chúc mừng hạnh phúc Thế Anh và Phương Thảo! Trăm năm hạnh phúc, sớm sinh quý tử nhé!',
+    wishes: 'Chúc mừng hạnh phúc Trường Xuân và Cô Dâu! Trăm năm hạnh phúc, sớm sinh quý tử nhé!',
     dietaryNotes: 'Không ăn cay lớn',
     createdAt: new Date(Date.now() - 3600000 * 24 * 3).toISOString()
   },
@@ -134,7 +134,7 @@ const mockReservations: RSVPSubmission[] = [
     attendance: 'yes',
     guestCount: 1,
     side: 'bride',
-    wishes: 'Chúc Thảo của chị luôn rạng rỡ và hạnh phúc bên Thế Anh nhé. Theo chồng nhưng đừng bỏ cuộc chơi nha!',
+    wishes: 'Chúc Cô Dâu của chị luôn rạng rỡ và hạnh phúc bên Trường Xuân nhé. Theo chồng nhưng đừng bỏ cuộc chơi nha!',
     dietaryNotes: 'Ăn chay chay trường',
     createdAt: new Date(Date.now() - 3600000 * 18).toISOString()
   },

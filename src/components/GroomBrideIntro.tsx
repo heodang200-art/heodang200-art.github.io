@@ -58,11 +58,13 @@ export default function GroomBrideIntro({ groom, bride }: IntroProps) {
             <p className="text-[11px] text-stone-400 font-mono tracking-wider mb-4">SINH NGÀY: {groom.birthdate}</p>
             
             {/* Parent section - Essential in Vietnam */}
-            <div className="bg-stone-100/80 px-4 py-3 rounded-2xl w-full border border-stone-200/50 text-xs text-stone-500 mb-5 leading-relaxed">
-              <p className="font-semibold text-stone-700 mb-1 font-serif">Kính báo:</p>
-              <p>Con ông: <span className="font-medium text-stone-800">{groom.father}</span></p>
-              <p>Con bà: <span className="font-medium text-stone-800">{groom.mother}</span></p>
-            </div>
+            {(groom.father || groom.mother) && (
+              <div className="bg-stone-100/80 px-4 py-3 rounded-2xl w-full border border-stone-200/50 text-xs text-stone-500 mb-5 leading-relaxed">
+                <p className="font-semibold text-stone-700 mb-1 font-serif">Kính báo:</p>
+                {groom.father && <p>Con ông: <span className="font-medium text-stone-800">{groom.father}</span></p>}
+                {groom.mother && <p>Con bà: <span className="font-medium text-stone-800">{groom.mother}</span></p>}
+              </div>
+            )}
             
             <p className="text-stone-600 font-light text-sm leading-relaxed mb-6 flex-1 italic">
               "{groom.description}"
@@ -103,11 +105,13 @@ export default function GroomBrideIntro({ groom, bride }: IntroProps) {
             <p className="text-[11px] text-stone-400 font-mono tracking-wider mb-4">SINH NGÀY: {bride.birthdate}</p>
             
             {/* Parent section - Essential in Vietnam */}
-            <div className="bg-stone-100/80 px-4 py-3 rounded-2xl w-full border border-stone-200/50 text-xs text-stone-500 mb-5 leading-relaxed">
-              <p className="font-semibold text-stone-700 mb-1 font-serif">Kính báo:</p>
-              <p>Con ông: <span className="font-medium text-stone-800">{bride.father}</span></p>
-              <p>Con bà: <span className="font-medium text-stone-800">{bride.mother}</span></p>
-            </div>
+            {(bride.father || bride.mother) && (
+              <div className="bg-stone-100/80 px-4 py-3 rounded-2xl w-full border border-stone-200/50 text-xs text-stone-500 mb-5 leading-relaxed">
+                <p className="font-semibold text-stone-700 mb-1 font-serif">Kính báo:</p>
+                {bride.father && <p>Con ông: <span className="font-medium text-stone-800">{bride.father}</span></p>}
+                {bride.mother && <p>Con bà: <span className="font-medium text-stone-800">{bride.mother}</span></p>}
+              </div>
+            )}
 
             <p className="text-stone-600 font-light text-sm leading-relaxed mb-6 flex-1 italic">
               "{bride.description}"

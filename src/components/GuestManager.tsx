@@ -165,7 +165,7 @@ export default function GuestManager() {
     const wishes = [
       'Chúc hai bạn trăm năm hạnh phúc, rổ rá cạp lại thật viên mãn!',
       'Gia đình bác chúc hai cháu luôn yêu thương nhau như ngày đầu.',
-      'Sớm sinh em bé nhé Thảo và Trường Xuân ơi. Tiệc cưới đỉnh quá!',
+      'Sớm sinh em bé nhé Cô Dâu và Trường Xuân ơi. Tiệc cưới đỉnh quá!',
       'Yêu nhau vững bền nhé hai em của chị.'
     ];
     const randomName = names[Math.floor(Math.random() * names.length)];
