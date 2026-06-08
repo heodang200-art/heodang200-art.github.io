@@ -165,7 +165,7 @@ export default function GuestManager() {
     const wishes = [
       'Chúc hai bạn trăm năm hạnh phúc, rổ rá cạp lại thật viên mãn!',
       'Gia đình bác chúc hai cháu luôn yêu thương nhau như ngày đầu.',
-      'Sớm sinh em bé nhé Thảo và Thế Anh ơi. Tiệc cưới đỉnh quá!',
+      'Sớm sinh em bé nhé Thảo và Trường Xuân ơi. Tiệc cưới đỉnh quá!',
       'Yêu nhau vững bền nhé hai em của chị.'
     ];
     const randomName = names[Math.floor(Math.random() * names.length)];
@@ -343,7 +343,7 @@ export default function GuestManager() {
               <div>
                 <span className="text-xs uppercase tracking-widest text-amber-500 font-semibold font-mono">Wedding Management Panel</span>
                 <h2 className="font-serif text-2xl md:text-3xl font-bold text-amber-100 flex items-center gap-2 mt-1">
-                  Đám Cưới Của Thế Anh & Phương Thảo
+                  Đám Cưới Của Trường Xuân & Cô Dâu
                 </h2>
                 <div className="mt-1 flex items-center gap-2 text-xs text-stone-400">
                   <span className="w-2.5 h-2.5 rounded-full bg-green-500 animate-pulse"></span>

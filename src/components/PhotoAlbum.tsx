@@ -150,7 +150,7 @@ export default function PhotoAlbum() {
               {ALBUM_IMAGES[activeImageIdx].title}
             </h4>
             <p className="text-[11px] text-stone-400 mt-1 uppercase font-mono tracking-widest">
-              Cô Dâu Phương Thảo ❤️ Chú Rể Thế Anh
+              Cô Dâu Cô Dâu ❤️ Chú Rể Trường Xuân
             </p>
           </div>
 
